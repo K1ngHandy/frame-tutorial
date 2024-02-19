@@ -7,7 +7,7 @@ const frameMetadata = getFrameMetadata({
       label: "Begin"
     }
   ],
-  image: `${process.env.NEXT_PUBLIC_GATEWAY_URL}/ipfs/`,
+  image: `${process.env.NEXT_PUBLIC_GATEWAY_URL}/ipfs/QmeqbjaHeUxrMDrqZGH81tm3aX29VZr5w9ZVzns6tPEJt7`,
   post_url: `${process.env.NEXT_PUBLIC_BASE_URL}/api/frame?id=1`,
 });
 
@@ -23,3 +23,11 @@ export const metadata: Metadata = {
     ...frameMetadata,
   },
 };
+
+export default function Page() {
+  return (
+    <>
+      <h1>Test Frame</h1>
+    </>
+  );
+}
