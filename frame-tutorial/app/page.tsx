@@ -7,17 +7,17 @@ const frameMetadata = getFrameMetadata({
       label: "Begin"
     }
   ],
-  image: `${process.env.NEXT_PUBLIC_GATEWAY_URL}/ipfs/QmeqbjaHeUxrMDrqZGH81tm3aX29VZr5w9ZVzns6tPEJt7`,
+  image: `${process.env.NEXT_PUBLIC_GATEWAY_URL}/ipfs/QmeqbjaHeUxrMDrqZGH81tm3aX29VZr5w9ZVzns6tPEJt7.png`,
   post_url: `${process.env.NEXT_PUBLIC_BASE_URL}/api/frame?id=1`,
 });
 
 export const metadata: Metadata = {
-  title: 'Test Frame',
+  title: 'Native Museum',
   description: 'A frame to test unique Frame building',
   openGraph: {
     title: 'Native Museum',
     description: 'A frame to test unique Frame building',
-    images: [`${process.env.NEXT_PUBLIC_GATEWAY_URL}/ipfs/QmeqbjaHeUxrMDrqZGH81tm3aX29VZr5w9ZVzns6tPEJt7`]
+    images: [`${process.env.NEXT_PUBLIC_GATEWAY_URL}/ipfs/QmeqbjaHeUxrMDrqZGH81tm3aX29VZr5w9ZVzns6tPEJt7.png`],
   },
   other: {
     ...frameMetadata,
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <>
-      <h1>Test Frame</h1>
+      <h1>Native Museum</h1>
     </>
   );
 }
