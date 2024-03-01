@@ -5,7 +5,7 @@ const nextConfig = {
         return [
             {
                 source: '/nativemuseum',
-                destination: 'https://nativemuseum.cloud',
+                destination: 'https://vercel.com/k1nghandy/frame-tutorial/Ezh7EJDnigHsvSSELvCmNxPe6zAA',
                 permanent: false
             },
             {
